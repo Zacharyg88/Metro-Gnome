@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB8063272AB0F0D300AEFDA6 /* Metro_GnomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063262AB0F0D300AEFDA6 /* Metro_GnomeApp.swift */; };
+		BB8063292AB0F0D300AEFDA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063282AB0F0D300AEFDA6 /* ContentView.swift */; };
+		BB80632B2AB0F0D500AEFDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB80632A2AB0F0D500AEFDA6 /* Assets.xcassets */; };
+		BB80632F2AB0F0D500AEFDA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB80632E2AB0F0D500AEFDA6 /* Preview Assets.xcassets */; };
+		BB8063392AB0F0D500AEFDA6 /* Metro_GnomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063382AB0F0D500AEFDA6 /* Metro_GnomeTests.swift */; };
+		BB8063432AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063422AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift */; };
+		BB8063452AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB8063352AB0F0D500AEFDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB80631B2AB0F0D300AEFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8063222AB0F0D300AEFDA6;
+			remoteInfo = "Metro-Gnome";
+		};
+		BB80633F2AB0F0D500AEFDA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB80631B2AB0F0D300AEFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8063222AB0F0D300AEFDA6;
+			remoteInfo = "Metro-Gnome";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB8063232AB0F0D300AEFDA6 /* Metro-Gnome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metro-Gnome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8063262AB0F0D300AEFDA6 /* Metro_GnomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeApp.swift; sourceTree = "<group>"; };
+		BB8063282AB0F0D300AEFDA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB80632A2AB0F0D500AEFDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB80632C2AB0F0D500AEFDA6 /* Metro_Gnome.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Metro_Gnome.entitlements; sourceTree = "<group>"; };
+		BB80632E2AB0F0D500AEFDA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB8063342AB0F0D500AEFDA6 /* Metro-GnomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metro-GnomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8063382AB0F0D500AEFDA6 /* Metro_GnomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeTests.swift; sourceTree = "<group>"; };
+		BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metro-GnomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8063422AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeUITests.swift; sourceTree = "<group>"; };
+		BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8063202AB0F0D300AEFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8063312AB0F0D500AEFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80633B2AB0F0D500AEFDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB80631A2AB0F0D300AEFDA6 = {
+			isa = PBXGroup;
+			children = (
+				BB8063252AB0F0D300AEFDA6 /* Metro-Gnome */,
+				BB8063372AB0F0D500AEFDA6 /* Metro-GnomeTests */,
+				BB8063412AB0F0D500AEFDA6 /* Metro-GnomeUITests */,
+				BB8063242AB0F0D300AEFDA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8063242AB0F0D300AEFDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8063232AB0F0D300AEFDA6 /* Metro-Gnome.app */,
+				BB8063342AB0F0D500AEFDA6 /* Metro-GnomeTests.xctest */,
+				BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8063252AB0F0D300AEFDA6 /* Metro-Gnome */ = {
+			isa = PBXGroup;
+			children = (
+				BB8063262AB0F0D300AEFDA6 /* Metro_GnomeApp.swift */,
+				BB8063282AB0F0D300AEFDA6 /* ContentView.swift */,
+				BB80632A2AB0F0D500AEFDA6 /* Assets.xcassets */,
+				BB80632C2AB0F0D500AEFDA6 /* Metro_Gnome.entitlements */,
+				BB80632D2AB0F0D500AEFDA6 /* Preview Content */,
+			);
+			path = "Metro-Gnome";
+			sourceTree = "<group>";
+		};
+		BB80632D2AB0F0D500AEFDA6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB80632E2AB0F0D500AEFDA6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB8063372AB0F0D500AEFDA6 /* Metro-GnomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8063382AB0F0D500AEFDA6 /* Metro_GnomeTests.swift */,
+			);
+			path = "Metro-GnomeTests";
+			sourceTree = "<group>";
+		};
+		BB8063412AB0F0D500AEFDA6 /* Metro-GnomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB8063422AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift */,
+				BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */,
+			);
+			path = "Metro-GnomeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8063482AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-Gnome" */;
+			buildPhases = (
+				BB80631F2AB0F0D300AEFDA6 /* Sources */,
+				BB8063202AB0F0D300AEFDA6 /* Frameworks */,
+				BB8063212AB0F0D300AEFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metro-Gnome";
+			productName = "Metro-Gnome";
+			productReference = BB8063232AB0F0D300AEFDA6 /* Metro-Gnome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB8063332AB0F0D500AEFDA6 /* Metro-GnomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80634B2AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-GnomeTests" */;
+			buildPhases = (
+				BB8063302AB0F0D500AEFDA6 /* Sources */,
+				BB8063312AB0F0D500AEFDA6 /* Frameworks */,
+				BB8063322AB0F0D500AEFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8063362AB0F0D500AEFDA6 /* PBXTargetDependency */,
+			);
+			name = "Metro-GnomeTests";
+			productName = "Metro-GnomeTests";
+			productReference = BB8063342AB0F0D500AEFDA6 /* Metro-GnomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB80633D2AB0F0D500AEFDA6 /* Metro-GnomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB80634E2AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-GnomeUITests" */;
+			buildPhases = (
+				BB80633A2AB0F0D500AEFDA6 /* Sources */,
+				BB80633B2AB0F0D500AEFDA6 /* Frameworks */,
+				BB80633C2AB0F0D500AEFDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB8063402AB0F0D500AEFDA6 /* PBXTargetDependency */,
+			);
+			name = "Metro-GnomeUITests";
+			productName = "Metro-GnomeUITests";
+			productReference = BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB80631B2AB0F0D300AEFDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BB8063222AB0F0D300AEFDA6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BB8063332AB0F0D500AEFDA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB8063222AB0F0D300AEFDA6;
+					};
+					BB80633D2AB0F0D500AEFDA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB8063222AB0F0D300AEFDA6;
+					};
+				};
+			};
+			buildConfigurationList = BB80631E2AB0F0D300AEFDA6 /* Build configuration list for PBXProject "Metro-Gnome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB80631A2AB0F0D300AEFDA6;
+			productRefGroup = BB8063242AB0F0D300AEFDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */,
+				BB8063332AB0F0D500AEFDA6 /* Metro-GnomeTests */,
+				BB80633D2AB0F0D500AEFDA6 /* Metro-GnomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8063212AB0F0D300AEFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB80632F2AB0F0D500AEFDA6 /* Preview Assets.xcassets in Resources */,
+				BB80632B2AB0F0D500AEFDA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8063322AB0F0D500AEFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80633C2AB0F0D500AEFDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB80631F2AB0F0D300AEFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8063292AB0F0D300AEFDA6 /* ContentView.swift in Sources */,
+				BB8063272AB0F0D300AEFDA6 /* Metro_GnomeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8063302AB0F0D500AEFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8063392AB0F0D500AEFDA6 /* Metro_GnomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB80633A2AB0F0D500AEFDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8063432AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift in Sources */,
+				BB8063452AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB8063362AB0F0D500AEFDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */;
+			targetProxy = BB8063352AB0F0D500AEFDA6 /* PBXContainerItemProxy */;
+		};
+		BB8063402AB0F0D500AEFDA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */;
+			targetProxy = BB80633F2AB0F0D500AEFDA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB8063462AB0F0D500AEFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB8063472AB0F0D500AEFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BB8063492AB0F0D500AEFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metro-Gnome/Metro_Gnome.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Metro-Gnome/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB80634A2AB0F0D500AEFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metro-Gnome/Metro_Gnome.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Metro-Gnome/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB80634C2AB0F0D500AEFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-GnomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metro-Gnome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metro-Gnome";
+			};
+			name = Debug;
+		};
+		BB80634D2AB0F0D500AEFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-GnomeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metro-Gnome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metro-Gnome";
+			};
+			name = Release;
+		};
+		BB80634F2AB0F0D500AEFDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-GnomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metro-Gnome";
+			};
+			name = Debug;
+		};
+		BB8063502AB0F0D500AEFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-GnomeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Metro-Gnome";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB80631E2AB0F0D300AEFDA6 /* Build configuration list for PBXProject "Metro-Gnome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8063462AB0F0D500AEFDA6 /* Debug */,
+				BB8063472AB0F0D500AEFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8063482AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-Gnome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8063492AB0F0D500AEFDA6 /* Debug */,
+				BB80634A2AB0F0D500AEFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB80634B2AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-GnomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80634C2AB0F0D500AEFDA6 /* Debug */,
+				BB80634D2AB0F0D500AEFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB80634E2AB0F0D500AEFDA6 /* Build configuration list for PBXNativeTarget "Metro-GnomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB80634F2AB0F0D500AEFDA6 /* Debug */,
+				BB8063502AB0F0D500AEFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB80631B2AB0F0D300AEFDA6 /* Project object */;
+}
