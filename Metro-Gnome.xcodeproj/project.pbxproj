@@ -14,6 +14,20 @@
 		BB8063392AB0F0D500AEFDA6 /* Metro_GnomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063382AB0F0D500AEFDA6 /* Metro_GnomeTests.swift */; };
 		BB8063432AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063422AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift */; };
 		BB8063452AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */; };
+		BB9E1CCD2ACE449E00AF2610 /* FlashViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1CCC2ACE449E00AF2610 /* FlashViewManager.swift */; };
+		BB9E1CCF2ACE44C400AF2610 /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1CCE2ACE44C400AF2610 /* FlashView.swift */; };
+		BB9E1CD12ACE571F00AF2610 /* SuperMario85.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1CD02ACE571F00AF2610 /* SuperMario85.ttf */; };
+		BB9E1D152ACEF80100AF2610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1D142ACEF80100AF2610 /* Assets.xcassets */; };
+		BB9E1D182ACEF80100AF2610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E1D172ACEF80100AF2610 /* Preview Assets.xcassets */; };
+		BB9E1D222ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1D212ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift */; };
+		BB9E1D2C2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1D2B2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift */; };
+		BB9E1D2E2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1D2D2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift */; };
+		BB9E1D382ACEFA2F00AF2610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063282AB0F0D300AEFDA6 /* ContentView.swift */; };
+		BB9E1D392ACEFA3600AF2610 /* Metro_GnomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8063262AB0F0D300AEFDA6 /* Metro_GnomeApp.swift */; };
+		BB9E1D3A2ACEFA3B00AF2610 /* FlashViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1CCC2ACE449E00AF2610 /* FlashViewManager.swift */; };
+		BB9E1D3B2ACEFA3F00AF2610 /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1CCE2ACE44C400AF2610 /* FlashView.swift */; };
+		BB9E1D3C2ACF8D9500AF2610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB80632A2AB0F0D500AEFDA6 /* Assets.xcassets */; };
+		BB9E1D3F2ACFA1F700AF2610 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E1D3E2ACFA1F700AF2610 /* UIScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +45,20 @@
 			remoteGlobalIDString = BB8063222AB0F0D300AEFDA6;
 			remoteInfo = "Metro-Gnome";
 		};
+		BB9E1D1E2ACEF80200AF2610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB80631B2AB0F0D300AEFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9E1D0D2ACEF80000AF2610;
+			remoteInfo = "Metro-Gnome-Watch Watch App";
+		};
+		BB9E1D282ACEF80200AF2610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB80631B2AB0F0D300AEFDA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9E1D0D2ACEF80000AF2610;
+			remoteInfo = "Metro-Gnome-Watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +73,25 @@
 		BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metro-GnomeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB8063422AB0F0D500AEFDA6 /* Metro_GnomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeUITests.swift; sourceTree = "<group>"; };
 		BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_GnomeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB9E1CCC2ACE449E00AF2610 /* FlashViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashViewManager.swift; sourceTree = "<group>"; };
+		BB9E1CCE2ACE44C400AF2610 /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		BB9E1CD02ACE571F00AF2610 /* SuperMario85.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SuperMario85.ttf; sourceTree = "<group>"; };
+		BB9E1CDE2ACEF79E00AF2610 /* Metro_Gnome_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_WatchApp.swift; sourceTree = "<group>"; };
+		BB9E1CE02ACEF79E00AF2610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB9E1CE22ACEF7A000AF2610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB9E1CE52ACEF7A000AF2610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB9E1CEF2ACEF7A000AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BB9E1CF92ACEF7A100AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BB9E1CFB2ACEF7A100AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB9E1D0E2ACEF80000AF2610 /* Metro-Gnome Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metro-Gnome Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9E1D142ACEF80100AF2610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB9E1D172ACEF80100AF2610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB9E1D1D2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metro-Gnome-Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9E1D212ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BB9E1D272ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metro-Gnome-Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9E1D2B2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BB9E1D2D2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB9E1D3E2ACFA1F700AF2610 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +116,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB9E1D0B2ACEF80000AF2610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D1A2ACEF80200AF2610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D242ACEF80200AF2610 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +146,12 @@
 				BB8063252AB0F0D300AEFDA6 /* Metro-Gnome */,
 				BB8063372AB0F0D500AEFDA6 /* Metro-GnomeTests */,
 				BB8063412AB0F0D500AEFDA6 /* Metro-GnomeUITests */,
+				BB9E1CDD2ACEF79E00AF2610 /* Metro-Gnome-Watch Watch App */,
+				BB9E1CEE2ACEF7A000AF2610 /* Metro-Gnome-Watch Watch AppTests */,
+				BB9E1CF82ACEF7A100AF2610 /* Metro-Gnome-Watch Watch AppUITests */,
+				BB9E1D0F2ACEF80000AF2610 /* Metro-Gnome-Watch Watch App */,
+				BB9E1D202ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests */,
+				BB9E1D2A2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests */,
 				BB8063242AB0F0D300AEFDA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +162,9 @@
 				BB8063232AB0F0D300AEFDA6 /* Metro-Gnome.app */,
 				BB8063342AB0F0D500AEFDA6 /* Metro-GnomeTests.xctest */,
 				BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */,
+				BB9E1D0E2ACEF80000AF2610 /* Metro-Gnome Watch App.app */,
+				BB9E1D1D2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests.xctest */,
+				BB9E1D272ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,10 +172,13 @@
 		BB8063252AB0F0D300AEFDA6 /* Metro-Gnome */ = {
 			isa = PBXGroup;
 			children = (
+				BB9E1D3D2ACFA1E500AF2610 /* Extensions */,
+				BB9E1CCB2ACE448500AF2610 /* FlashView */,
 				BB8063262AB0F0D300AEFDA6 /* Metro_GnomeApp.swift */,
 				BB8063282AB0F0D300AEFDA6 /* ContentView.swift */,
 				BB80632A2AB0F0D500AEFDA6 /* Assets.xcassets */,
 				BB80632C2AB0F0D500AEFDA6 /* Metro_Gnome.entitlements */,
+				BB9E1CD02ACE571F00AF2610 /* SuperMario85.ttf */,
 				BB80632D2AB0F0D500AEFDA6 /* Preview Content */,
 			);
 			path = "Metro-Gnome";
@@ -127,6 +207,93 @@
 				BB8063442AB0F0D500AEFDA6 /* Metro_GnomeUITestsLaunchTests.swift */,
 			);
 			path = "Metro-GnomeUITests";
+			sourceTree = "<group>";
+		};
+		BB9E1CCB2ACE448500AF2610 /* FlashView */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1CCC2ACE449E00AF2610 /* FlashViewManager.swift */,
+				BB9E1CCE2ACE44C400AF2610 /* FlashView.swift */,
+			);
+			path = FlashView;
+			sourceTree = "<group>";
+		};
+		BB9E1CDD2ACEF79E00AF2610 /* Metro-Gnome-Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1CDE2ACEF79E00AF2610 /* Metro_Gnome_WatchApp.swift */,
+				BB9E1CE02ACEF79E00AF2610 /* ContentView.swift */,
+				BB9E1CE22ACEF7A000AF2610 /* Assets.xcassets */,
+				BB9E1CE42ACEF7A000AF2610 /* Preview Content */,
+			);
+			path = "Metro-Gnome-Watch Watch App";
+			sourceTree = "<group>";
+		};
+		BB9E1CE42ACEF7A000AF2610 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1CE52ACEF7A000AF2610 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB9E1CEE2ACEF7A000AF2610 /* Metro-Gnome-Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1CEF2ACEF7A000AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift */,
+			);
+			path = "Metro-Gnome-Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BB9E1CF82ACEF7A100AF2610 /* Metro-Gnome-Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1CF92ACEF7A100AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift */,
+				BB9E1CFB2ACEF7A100AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Metro-Gnome-Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		BB9E1D0F2ACEF80000AF2610 /* Metro-Gnome-Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1D142ACEF80100AF2610 /* Assets.xcassets */,
+				BB9E1D162ACEF80100AF2610 /* Preview Content */,
+			);
+			path = "Metro-Gnome-Watch Watch App";
+			sourceTree = "<group>";
+		};
+		BB9E1D162ACEF80100AF2610 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1D172ACEF80100AF2610 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB9E1D202ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1D212ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift */,
+			);
+			path = "Metro-Gnome-Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BB9E1D2A2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1D2B2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift */,
+				BB9E1D2D2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Metro-Gnome-Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		BB9E1D3D2ACFA1E500AF2610 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E1D3E2ACFA1F700AF2610 /* UIScreen.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +352,59 @@
 			productReference = BB80633E2AB0F0D500AEFDA6 /* Metro-GnomeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		BB9E1D0D2ACEF80000AF2610 /* Metro-Gnome Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9E1D2F2ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome Watch App" */;
+			buildPhases = (
+				BB9E1D0A2ACEF80000AF2610 /* Sources */,
+				BB9E1D0B2ACEF80000AF2610 /* Frameworks */,
+				BB9E1D0C2ACEF80000AF2610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metro-Gnome Watch App";
+			productName = "Metro-Gnome-Watch Watch App";
+			productReference = BB9E1D0E2ACEF80000AF2610 /* Metro-Gnome Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB9E1D1C2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9E1D322ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome-Watch Watch AppTests" */;
+			buildPhases = (
+				BB9E1D192ACEF80200AF2610 /* Sources */,
+				BB9E1D1A2ACEF80200AF2610 /* Frameworks */,
+				BB9E1D1B2ACEF80200AF2610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9E1D1F2ACEF80200AF2610 /* PBXTargetDependency */,
+			);
+			name = "Metro-Gnome-Watch Watch AppTests";
+			productName = "Metro-Gnome-Watch Watch AppTests";
+			productReference = BB9E1D1D2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB9E1D262ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9E1D352ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome-Watch Watch AppUITests" */;
+			buildPhases = (
+				BB9E1D232ACEF80200AF2610 /* Sources */,
+				BB9E1D242ACEF80200AF2610 /* Frameworks */,
+				BB9E1D252ACEF80200AF2610 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB9E1D292ACEF80200AF2610 /* PBXTargetDependency */,
+			);
+			name = "Metro-Gnome-Watch Watch AppUITests";
+			productName = "Metro-Gnome-Watch Watch AppUITests";
+			productReference = BB9E1D272ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +426,17 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = BB8063222AB0F0D300AEFDA6;
 					};
+					BB9E1D0D2ACEF80000AF2610 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BB9E1D1C2ACEF80200AF2610 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB9E1D0D2ACEF80000AF2610;
+					};
+					BB9E1D262ACEF80200AF2610 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB9E1D0D2ACEF80000AF2610;
+					};
 				};
 			};
 			buildConfigurationList = BB80631E2AB0F0D300AEFDA6 /* Build configuration list for PBXProject "Metro-Gnome" */;
@@ -224,6 +455,9 @@
 				BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */,
 				BB8063332AB0F0D500AEFDA6 /* Metro-GnomeTests */,
 				BB80633D2AB0F0D500AEFDA6 /* Metro-GnomeUITests */,
+				BB9E1D0D2ACEF80000AF2610 /* Metro-Gnome Watch App */,
+				BB9E1D1C2ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppTests */,
+				BB9E1D262ACEF80200AF2610 /* Metro-Gnome-Watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +469,7 @@
 			files = (
 				BB80632F2AB0F0D500AEFDA6 /* Preview Assets.xcassets in Resources */,
 				BB80632B2AB0F0D500AEFDA6 /* Assets.xcassets in Resources */,
+				BB9E1CD12ACE571F00AF2610 /* SuperMario85.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +487,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB9E1D0C2ACEF80000AF2610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9E1D182ACEF80100AF2610 /* Preview Assets.xcassets in Resources */,
+				BB9E1D3C2ACF8D9500AF2610 /* Assets.xcassets in Resources */,
+				BB9E1D152ACEF80100AF2610 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D1B2ACEF80200AF2610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D252ACEF80200AF2610 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +518,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB9E1CCD2ACE449E00AF2610 /* FlashViewManager.swift in Sources */,
 				BB8063292AB0F0D300AEFDA6 /* ContentView.swift in Sources */,
 				BB8063272AB0F0D300AEFDA6 /* Metro_GnomeApp.swift in Sources */,
+				BB9E1CCF2ACE44C400AF2610 /* FlashView.swift in Sources */,
+				BB9E1D3F2ACFA1F700AF2610 /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +543,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB9E1D0A2ACEF80000AF2610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9E1D3A2ACEFA3B00AF2610 /* FlashViewManager.swift in Sources */,
+				BB9E1D392ACEFA3600AF2610 /* Metro_GnomeApp.swift in Sources */,
+				BB9E1D382ACEFA2F00AF2610 /* ContentView.swift in Sources */,
+				BB9E1D3B2ACEFA3F00AF2610 /* FlashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D192ACEF80200AF2610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9E1D222ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9E1D232ACEF80200AF2610 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB9E1D2C2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITests.swift in Sources */,
+				BB9E1D2E2ACEF80200AF2610 /* Metro_Gnome_Watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +583,16 @@
 			isa = PBXTargetDependency;
 			target = BB8063222AB0F0D300AEFDA6 /* Metro-Gnome */;
 			targetProxy = BB80633F2AB0F0D500AEFDA6 /* PBXContainerItemProxy */;
+		};
+		BB9E1D1F2ACEF80200AF2610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9E1D0D2ACEF80000AF2610 /* Metro-Gnome Watch App */;
+			targetProxy = BB9E1D1E2ACEF80200AF2610 /* PBXContainerItemProxy */;
+		};
+		BB9E1D292ACEF80200AF2610 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9E1D0D2ACEF80000AF2610 /* Metro-Gnome Watch App */;
+			targetProxy = BB9E1D282ACEF80200AF2610 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -572,6 +872,153 @@
 			};
 			name = Release;
 		};
+		BB9E1D302ACEF80200AF2610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Metro-Gnome-Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Metro-Gnome-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BB9E1D312ACEF80200AF2610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Metro-Gnome-Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Metro-Gnome-Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BB9E1D332ACEF80200AF2610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metro-Gnome-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metro-Gnome-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BB9E1D342ACEF80200AF2610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metro-Gnome-Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metro-Gnome-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		BB9E1D362ACEF80200AF2610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Metro-Gnome-Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		BB9E1D372ACEF80200AF2610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zapps.Metro-Gnome-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Metro-Gnome-Watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -607,6 +1054,33 @@
 			buildConfigurations = (
 				BB80634F2AB0F0D500AEFDA6 /* Debug */,
 				BB8063502AB0F0D500AEFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9E1D2F2ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9E1D302ACEF80200AF2610 /* Debug */,
+				BB9E1D312ACEF80200AF2610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9E1D322ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome-Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9E1D332ACEF80200AF2610 /* Debug */,
+				BB9E1D342ACEF80200AF2610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9E1D352ACEF80200AF2610 /* Build configuration list for PBXNativeTarget "Metro-Gnome-Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9E1D362ACEF80200AF2610 /* Debug */,
+				BB9E1D372ACEF80200AF2610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
